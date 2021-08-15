@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+header {
+    background-color: white;
+    color: thistle;
+}
+
+header nav ul {
+    padding-top: 30px;
+}
+
+
+header nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #777777;
+    margin: 10px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    text-align: right;
+    font-size: 60px;
+    width: 1000px;
+    height: 60px;
+    left: 323px;
+}
+
+.banner .container2 .img-destaque {
+    width: 1350px;
+}
+
+section.OFF {
+    background-color: #C2185B;
+    padding: 50px 0;
+    width: 100%;
+}
+
+section.imagem .posicao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.imagem .posicao img {
+    margin: 20px;
+}
+
+section.OFF .container .texto {
+    font-weight: 800;
+    font-size: 44px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article {
+    width: 250px;
+    background-color: white;
+    margin: 10px;
+}
+
+article img {
+    width: 100%;
+}
+
+.artigos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.banner3 .imagem11 {
+    margin-left: 20px;
+}
+
+.banner3 a {
+    display: inline-block;
+    background-color: #C2185B;
+    color: white;
+    font-size: 30px;
+    width: 403px;
+    margin-bottom: 72px;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer {
+    background-color: #C2185B;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.coluna nav ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.coluna nav ul li a {
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+}
+
+footer p {
+    padding-top: 0;
+    padding-bottom: 0;
+}

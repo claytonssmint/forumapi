@@ -1,0 +1,237 @@
+/* Configuração inicial */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    /* atributo que diz pro elemento respeitar o limite width */
+    box-sizing: border-box;
+}
+
+/* scroll suave deslizando a pagina */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* tirando espaçamento padrão do navegador*/
+    margin: 0;
+    /* top, left/right, bottom */
+    padding: 100px 0 0;
+    /* configuração de textos gerais */
+    font-family: 'Roboto', sans-serif;
+    color: #9b9b9b;
+
+}
+
+header {
+    /* cor de fundo */
+    background-color: #00796B;
+    /* cor do texto */
+    color: #fff;
+    /* header fixo */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    /* centralizar o conteúdo */
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    /* tirar as bolinhas (marcação da lista */
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    /* remove sublinhado do link */
+    text-decoration: none;
+    /* transforma letras em maiúscula */
+    text-transform: uppercase;
+}
+
+nav ul li {
+    /* colocar um elemento do lado do outro */
+    display: inline-block;
+    padding: 10px;
+}
+
+header .container {
+    /* ativando o flexbox */
+    display: flex;
+    /* alinhamento horizontal */
+    justify-content: space-between;
+    /* alinhamento vertical */
+    align-items: center;
+    /* permite quebrar linha */
+    flex-wrap: wrap;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: space-around;
+    /* Coloca os elementos um ao lado do outro */
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 80vh;
+}
+
+footer {
+    /*configura o rodapé do site */
+    background-color: #c4c4c4;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #009688;
+    font-size: 30px;
+}
+
+footer p {
+    color: #fff;
+
+}
+
+p {
+    color: #9b9b9b;
+}
+
+.banner .container img,
+.banner .container .texto {
+    width: 500px;
+    max-width: 100%;
+}
+
+/* Folha numero dois arquivo sobre */
+
+h2 {
+    color: #009688;
+    text-transform: uppercase;
+}
+
+ol li {
+    color: #c4c4c4;
+}
+
+.texto1 {
+    text-align: center;
+}
+
+/* Folha numero três arquivo contato */
+
+form label {
+    color: #9b9b9b;
+}
+
+.formulario,
+.informacoes {
+    width: 500px;
+    max-width: 100%;
+}
+
+/* seletor com exceção */
+form input:not([type="checkbox"]) {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    /* Não altera o campo de textarea, fica bloqueado */
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    background-color: #009688;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 30px;
+    border: none;
+}
+
+section.contato .container {
+    /* Habilita flexbox */
+    display: flex;
+    /* alinha na horizontal */
+    justify-content: space-between;
+    /* alinha na vertical */
+    align-items: flex-start;
+    /* altura mínima */
+    min-height: 80vh;
+    /* permite quebrar linha (responsividade) */
+    flex-wrap: wrap;
+}
+
+.informacoes iframe {
+    width: 100%;
+    height: 300px;
+    margin: 30px auto;
+}
+
+.informacoes {
+    padding-top: 80px;
+}
+
+/* Folha quatro arquivo serviços */
+
+.servicos {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.marketing {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.consultoria {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* link que parece botão */
+a.link-botao {
+    background-color: #009688;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 15px;
+    display: inline-block;
+
+}
+
+/* mudança do botão ao passar o cursor */
+
+a.link-botao:hover {
+    background-color: #424242;
+    transition: all 0.5s;
+
+}
+
+/* botão voltar ao topo */
+.voltar-topo {
+    text-align: center;
+    /* espaços pra cima e pra baixo e paea as laterais */
+    padding: 50px 10px;
+}
+
+.voltar-topo a {
+    text-decoration: none;
+    color: #00796B;
+    border: 1px solid #00796B;
+    padding: 10px;
+}

@@ -1,0 +1,24 @@
+FASE 1 - Link:
+    ✔ Linkar o arquivo app.js ao html @done(21-07-15 09:53)
+
+FASE 2 - Captura de elementos (app.js):
+    ✔ Capturar o campo onde o usuário digita a tarefa na variável inputTarefa @done(21-07-15 10:27)
+    ✔ Capturar o formulário na variável form @done(21-07-15 10:44)
+
+FASE 3 - Associação de Eventos:
+    ✔ Criar uma função onFormSubmit(). Essa função deve: @done(21-07-15 11:13)
+        ✔ Receber um evento como parâmetro. @done(21-07-15 11:19)
+        ✔ Interromper o envio do formulário (Dica: preventDefault) @done(21-07-15 11:27)
+        ✔ Ser executada sempre que o form for submetido @done(21-07-15 11:49)
+
+FASE 4 - A lógica:
+    ✔ Criar uma função addTarefa: @done(21-07-15 12:03)
+        ✔ A função deve receber texto como parâmetro (Dica: addTarefa(texto)) @done(21-07-15 12:03)
+        ✔ A função, por enquanto, imprime o texto passado como parâmetro no console. @done(21-07-15 13:18)
+
+FASE 5 - Criação e Adição de Elementos:
+     ✔ Fazer com que a função addTarefa crie um elemento <tr>.(document.createElement) @done(21-07-15 14:47)
+        ✔ Criar quatro elementos td. (document.createElement) @done(21-07-15 14:49)
+        ✔ Adicionar quatro elementos<td> ao <tr> criado. (elementoPai.appendChild(elementoFilho)) @done(21-07-15 14:52)
+        ☐ Adicionar o <tr> ao <tbody> da tabela. (elementoPai.appendChild(elementoFilho))
+        

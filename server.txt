@@ -1,0 +1,2 @@
+C:\Users\darkc\bytebank\src\dados>json-server --watch db.json
+json-server --watch db.json
