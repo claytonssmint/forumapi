@@ -1,3 +1,3 @@
 # Meus-Projetos
 
-Esses Projetos foram realizado através de Cursos.
+Esses Projetos foram desenvolvidos em Cursos.
