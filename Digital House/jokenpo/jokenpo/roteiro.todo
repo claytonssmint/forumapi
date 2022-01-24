@@ -1,8 +1,0 @@
-✔ Capturar os botões de controle nas variáveis botaoPedra, botaoPapel, botaoTesoura @done(21-07-13 09:36)
-✔ Associar ao clique do botão a função jogar @done(21-07-13 09:36)
-✔ Fazer com que a função jogar alerte pedra, papel ou tesoura, dependendo do botão que foi clicado @done(21-07-13 10:57)
-✔ Fazer uma função jogaComputador. Essa função deve retornar pedra, papel ou tesoura aleatoriamente. @done(21-07-13 14:01)
-✔ Comparar o que o computador jogou com o que o usuário jogou. @done(21-07-13 14:05)
-☐ incrementar o placar de acordo.
-☐ Exibir mensagem de vitória, empate ou derrota.
-☐ Aplicar os CSSs de acordo com os resultados das jogadas...
